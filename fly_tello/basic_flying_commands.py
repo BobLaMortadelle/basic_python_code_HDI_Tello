@@ -8,6 +8,7 @@ def main():
     tello.takeoff()
     tello.move_up(20)
     tello.move_down(40)
+
     tello.land()
 
 if __name__=="__main__":
